@@ -1,0 +1,2 @@
+---
+std_msgs/String current_activity # Current Activity of robot, it will inform to backend-side when backend request to robot.

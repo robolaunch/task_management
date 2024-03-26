@@ -1,0 +1,8 @@
+{
+    "messageType": "RobotCreate",
+    "robotID": "2",
+    "robotType": "robolaunch",
+    "robotUrl": "ws://192.168.1.21:9090",
+    "currentActivity": "UNCONNECTED",
+    "jobID": "3"
+}

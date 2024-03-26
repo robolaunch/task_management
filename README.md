@@ -1,70 +1,72 @@
-# <img src="https://raw.githubusercontent.com/robolaunch/trademark/main/logos/svg/rocket.svg" width="40" height="40" align="top"> robolaunch Project Template
+# task_management
 
-[EDIT THIS: You can put badges to the README using [shields.io](https://shields.io/). Explain the repository's purpose shortly.]
+### Nodejs and Npm Installation for Ubuntu 22.04
 
-<div align="center">
-  <p align="center">
-    <a href="https://github.com/robolaunch/template/releases">
-      <img src="https://img.shields.io/badge/python-3.7-blue" alt="release">
-    </a>
-    <a href="https://github.com/robolaunch/template/releases">
-      <img src="https://img.shields.io/badge/release-v2.0.7-green" alt="release">
-    </a>
-    <a href="https://github.com/robolaunch/template/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/robolaunch/template" alt="license">
-    </a>
-    <a href="https://github.com/robolaunch/template/issues">
-      <img src="https://img.shields.io/github/issues/robolaunch/template" alt="issues">
-    </a>
-    <a href="https://github.com/robolaunch/template/actions">
-      <img src="https://img.shields.io/badge/build-passing-dgreen" alt="build">
-    </a>
-  </p>
-</div>
+```bash
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
+```
 
-robolaunch Template helps organization members to have a generic project template before opening a repository. [Use this repository as a template](https://github.com/robolaunch/template/generate) for the new [robolaunch Organization](https://github.com/robolaunch) repository and specialize it according to project's needs.
+### MongoDB Installation for Ubuntu 22.04
 
-## Table of Contents
+```bash
+https://www.cherryservers.com/blog/install-mongodb-ubuntu-22-04
+```
 
-[EDIT THIS: Add your headers to table of contents.]
+### MongoDB Compass Installation for Ubuntu 22.04
 
-- [Overview](#overview)
-- [Quick Start](#quick-start)
-- [Aims & Roadmap](#aims--roadmap)
-- [Contributing](#contributing)
+```bash
+https://linuxgenie.net/how-to-install-mongodb-compass-on-ubuntu-22-04/
+```
 
+### Installing all dependencies
 
-## Overview
+```bash
+sudo npm install --save
+```
 
-[EDIT THIS: Give more insight about the project. Provide a feature list.]
+### Services
 
-The aim of this project is to maintain a generic template for robolaunch projects. Members of robolaunch organization can fork this repository and start developing their projects following conventions such as:
+- [x] Job Cancel
+- [x] Job Create
+- [x] Job Query
+- [x] Job Remove
+- [x] Job Update
+- [x] Location Create
+- [x] Location Query
+- [x] Location Update
+- [ ] Location Load
+- [x] Robot Create
+- [x] Robot Query
+- [x] Robot Remove
+- [x] Robot Update
+- [x] Waiting Point Create
+- [x] Waiting Point Query
+- [ ] Waiting Point Load
+- [x] Waiting Point Remove
+- [x] Waiting Point Update
 
-- Following a code of conduct
-- Having a contributing guide
-- Having a style guide
-- Applying Apache 2.0 license
-- Having a README template
-- Having issue & pull request templates
-- Using worklows for testing & build
+### Rosbridge
 
-## Quick Start
+- [x] Robot services
+- [x] Robot topics
+- [x] Job services
+- [x] Job topics
+- [x] Location services
+- [x] Location topics
+- [x] Waiting Point services
+- [x] Waiting Point topics
 
-[EDIT THIS: Explain how starters can try the project's functionality.]
+### Fleet Management
 
-After [using this project as template](https://github.com/robolaunch/template/generate), you can:
-- Update generic fields at README, specialize it to the project
-- Create first release to stage new features
-- Add custom workflows for CI/CD
-- Specialize issue & PR templates if needed
+- [x] Start Management
+- [x] Fleet Management (if mission status == "SCHEDULED" and robot status == "IDLE")
 
-## Aims & Roadmap
+### Task Maangement for FSM
 
-[EDIT THIS: Add roadmap items for the project.]
+task_management package in robolaunch_colcon_ws is the main package on robot's side. We need to run this command using task_management FSM.
+https://github.com/furkansariyildiz/robolaunch_colcon_ws
 
-- Extending the open source conventions
-- Enforcing conventional commit messages
-
-## Contributing
-
-Please see [this guide](./CONTRIBUTING.md) if you want to contribute.
+```bash
+source install/setup.bash
+ros2 run task_management fsm.py
+```

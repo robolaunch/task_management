@@ -1,0 +1,6 @@
+{
+    "mesageType": "JobUpdate",
+    "jobID": "1x21",
+    "jobStatus": "123",
+    "errorMessage": "errorMessage - string"
+}

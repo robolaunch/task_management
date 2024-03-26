@@ -1,0 +1,5 @@
+{
+    "messageType": "JobCancel",
+    "jobID": "1x21",
+    "jobStatus": "CANCELLED"
+}

@@ -1,0 +1,5 @@
+std_msgs/String job_id # ID of the job to define for robot.
+robot_backend_interface_msgs/Task[] tasks # List of task, it can has 2 or more tasks in an array.
+robot_backend_interface_msgs/Task last_completed_task # Last completed task by robot.
+---
+std_msgs/String response # Response of the JobToRobot service.

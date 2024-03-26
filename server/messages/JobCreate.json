@@ -1,0 +1,26 @@
+{
+    "messageType": "JobCreate",
+    "jobID": "test",
+    "robotUrl": "",
+    "taskList":[
+        {
+            "ActionName": "Pickup",
+            "LocationId": "0"
+        },
+        {
+            "ActionName": "Deliver",
+            "LocationId": "1"
+        },
+                {
+            "ActionName": "Pickup",
+            "LocationId": "0"
+        },
+                {
+            "ActionName": "Deliver",
+            "LocationId": "1"
+        }
+    ],
+    "deadline": "15:00:00",
+    "priority": 0, 
+    "jobStatus": "NULL"
+}

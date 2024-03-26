@@ -1,0 +1,8 @@
+{
+    "messageType": "RobotUpdate",
+    "robotID": "2",
+    "robotType": "robolaunch-100",
+    "robotUrl": "ws://192.168.0.178:9090",
+    "currentActivity": "UNCONNECTED",
+    "jobID": "5"
+}

@@ -1,0 +1,2 @@
+std_msgs/String action_name # Action Name, it can be 'start-point' or 'end-point'
+robot_backend_interface_msgs/Location location # Location is type of robot_backend_interface_msgs/msg/Location, it has location_id and pose

@@ -1,0 +1,10 @@
+{
+    "messageType": "LocationUpdate",
+    "locationID": "warehouse",
+    "locationStatus": "CONNECTED",
+    "position": {
+        "x": 1.2,
+        "y": 0.6,
+        "z": 20
+    }
+}

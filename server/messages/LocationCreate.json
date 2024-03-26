@@ -1,0 +1,16 @@
+{
+    "messageType": "LocationCreate",
+    "locationID": "warehouse-2",
+    "position": {
+        "x": 1.7873485088348389,
+        "y": 2.789531946182251,
+        "z": 0.0
+    },
+    "orientation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+    },
+    "locationStatus": "UNCONNECTED"
+}
